@@ -5,10 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AOS | Animation On Scroll Webpage </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
+    <header class="main-header">
+        <h1><span>Acrylic Painting</span> Gallery</h1>
+        <p>AOS | Animation On Scroll Webpage</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="img/paint_1.png" alt="" width="500px" height="300px">
+            <div>
+                <h3>Acrylic Paiting One</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, maiores reiciendis repellendus reprehenderit, ea recusandae autem iste sint harum consectetur repudiandae sit laudantium! Earum repudiandae perferendis magni in excepturi quibusdam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+                    <img src="img/paint_2.png" alt="" width="500px" height="300px">
+                    <div>
+                        <h3>Acrylic Paiting Two</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, maiores reiciendis repellendus reprehenderit, ea recusandae autem iste sint harum consectetur repudiandae sit laudantium! Earum repudiandae perferendis magni in excepturi quibusdam!</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+                        <img src="img/paint_3.png" alt="" width="500px" height="300px">
+                        <div>
+                            <h3>Acrylic Paiting Three</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, maiores reiciendis repellendus reprehenderit, ea recusandae autem iste sint harum consectetur repudiandae sit laudantium! Earum repudiandae perferendis magni in excepturi quibusdam!</p>
+                            <a href="#" class="btn">Buy Now</a>
+                        </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+                            <img src="img/paint_4.png" alt="" width="500px" height="300px">
+                            <div>
+                                <h3>Acrylic Paiting Four</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, maiores reiciendis repellendus reprehenderit, ea recusandae autem iste sint harum consectetur repudiandae sit laudantium! Earum repudiandae perferendis magni in excepturi quibusdam!</p>
+                                <a href="#" class="btn">Buy Now</a>
+                            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+                                <img src="img/paint_5.png" alt="" width="500px" height="300px">
+                                <div>
+                                    <h3>Acrylic Paiting Five</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, maiores reiciendis repellendus reprehenderit, ea recusandae autem iste sint harum consectetur repudiandae sit laudantium! Earum repudiandae perferendis magni in excepturi quibusdam!</p>
+                                    <a href="#" class="btn">Buy Now</a>
+                                </div>
+        </section>
+
+
+    </main>
 
     
-    
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>   
 </body>
 </html>
